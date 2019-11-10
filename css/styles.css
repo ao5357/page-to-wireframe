@@ -192,7 +192,9 @@ iframe {
 img {
   border: 2px var(--color--grey) solid;
   -ms-interpolation-mode: bicubic;
+  display: inline-block;
   filter: grayscale(1) blur(3px);
+  position: relative;
 }
 
 .has-background-image {
