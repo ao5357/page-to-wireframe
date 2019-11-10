@@ -1,0 +1,1 @@
+console.log('Inserted JavaScript is working in the local context.');

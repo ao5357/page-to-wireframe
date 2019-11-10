@@ -1,0 +1,5 @@
+{
+  "extensionName": {"message": "Page to wireframe"},
+  "extensionDescription": {"message": "Click an icon and turn the page you're on into a wireframe."},
+  "browserActionDefaultTitle": {"message": "Turn page into wire"}
+}

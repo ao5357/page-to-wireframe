@@ -1,0 +1,26 @@
+{
+  "author": "Symmetri Marketing Group",
+  "name": "__MSG_extensionName__",
+  "short_name": "p2wire",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0.0",
+  "default_locale": "en_US",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "__MSG_browserActionDefaultTitle__"
+  },
+  "homepage_url": "https://github.com/ao5357/page-to-wireframe",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png"
+  },
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ]
+}
