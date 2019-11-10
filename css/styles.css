@@ -109,7 +109,9 @@ samp,
 /**
  * HTML root element. Doesn't take all styles.
  */
-html {
+html, body {
+  background: #fff;
+  color: #333;
   filter: grayscale(1);
 }
 
@@ -125,6 +127,50 @@ body {
   background: #fff;
   color: var(--color--grey-dark);
   scroll-behavior: smooth;
+}
+body > * {
+  font-size: 1.35em;
+}
+
+a {
+  text-decoration: underline !important;
+}
+
+h1:before {
+  content: '<h1>: ';
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h2:before {
+  content: '<h2>: ';
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h3:before {
+  content: '<h3>: ';
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h4:before {
+  content: '<h4>: ';
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h5:before {
+  content: '<h5>: ';
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h6:before {
+  content: '<h6>: ';
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 /**
@@ -147,4 +193,9 @@ img {
   border: 2px var(--color--grey) solid;
   -ms-interpolation-mode: bicubic;
   filter: grayscale(1) blur(3px);
+}
+
+.has-background-image {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/css/images/background-image.jpg') !important;
+  background-size: cover !important;
 }

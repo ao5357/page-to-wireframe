@@ -24,6 +24,8 @@
     "activeTab"
   ],
   "web_accessible_resources": [
-    "css/fonts/*.woff2"
+    "css/fonts/*.woff2",
+    "css/images/*.jpg",
+    "css/images/*.svg"
   ]
 }
