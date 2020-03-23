@@ -4,9 +4,8 @@ A chrome extension to take a live webpage and make it look like a wireframe.
 
 ## Why
 
-I make websites (for [Symmetri Technology](https://www.symmetritechnology.com/)), and sometimes I want to
-make a site first, then demonstrate its micro-IA separately, without showing a huge level of detail or 
-design fidelity.
+I make websites, and sometimes I want to make a site first, then demonstrate its micro-IA separately, without showing a 
+huge level of detail or design fidelity.
 
 This extension lets you click a button and have everything on the page appear low-fidelity. You can then 
 take screenshots and perform other operations in order to export your wires.
