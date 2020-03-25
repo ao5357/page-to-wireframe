@@ -2,6 +2,8 @@
 
 A chrome extension to take a live webpage and make it look like a wireframe.
 
+![What a github page looks like wireframed](https://github.com/ao5357/page-to-wireframe/raw/master/icons/screenshot.png)
+
 ## Why
 
 I make websites, and sometimes I want to make a site first, then demonstrate its micro-IA separately, without showing a 
