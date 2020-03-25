@@ -1,6 +1,6 @@
 # Page to wireframe
 
-A chrome extension to take a live webpage and make it look like a wireframe.
+A chrome extension to take a live webpage and make it look like a wireframe. [Available in the Chrome web store](https://chrome.google.com/webstore/detail/page-to-wireframe/djbpbelpckcfamdlkfhipkkadnanmkci)
 
 ![What a github page looks like wireframed](https://github.com/ao5357/page-to-wireframe/raw/master/icons/screenshot.png)
 
